@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+body{
+    background-color: #84E1AD;
+    margin-top: 0px;
+    margin: 0px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf')
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.txtandroid{
+    font-size: 1em;
+    font-family: 'idroid';
+}
+h1{
+    font-family: 'Bebas Neue';
+}
+
+header{
+    background-image: linear-gradient(to top,#258350, #36C074);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    
+}
+h2{
+    background-image: linear-gradient(to right, #36c074a6, #36c07435);
+    padding: 4px;
+}
+header > h1, #ph{
+    text-align: center;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 15px;
+    
+}
+
+main{
+    background-color: white;
+    margin: 0px 180px 0px 180px;
+    padding: 10px;
+}
+
+section{
+    background-color: white;
+    margin: 0px 180px 0px 180px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#video{
+    margin: 0px 180px 0px 180px;
+    padding: 10px 40px 10px 40px;
+    background-color: #258350;
+    
+}
+.v2{
+    margin: 10px auto 10px auto;
+    height: 500px;
+
+}
+
+#txtt{
+    font-weight: bold;
+    background-color: #34B86F;
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+}
+
+#art1{
+    background-color: #73c797;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#ft{
+    text-align: center;
+    background-color: #114328;
+    width: 100%;
+    color: white;
+}
+
+span{
+    color: #17914e;
+    font-weight: bolder;
+}
+ul{
+    display: inline-block;
+    text-decoration: none;
+
+}
+li::before{
+    content: '✔';
+}
+#lista1{
+    margin-right: 150px;
+    text-align: left;
+}
+main > .img1{
+    margin: 10px auto 10px auto;
+    width: 100%;
+    
+}
+main > img{
+    width: 200px;
+    margin: 0px 0px 0px 40%;
+}
